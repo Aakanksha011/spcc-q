@@ -1,0 +1,3 @@
+flex spcc6.l
+bison -dy spcc6.y
+gcc lex.yy.c y.tab.c
